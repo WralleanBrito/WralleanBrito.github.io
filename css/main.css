@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+  background-color: whitesmoke;
+}
+
+.contenedor {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navegacion {
+  width: 100%;
+  text-align: right;
+}
+
+.navegacion ul {
+  width:100%;
+  margin-bottom: 0.2em;
+  background-color:rgb(255, 139, 42);
+}
+
+.navegacion ul li{
+  display: inline-block;
+  background-color:inherit;
+  margin:0 0.5em;
+  padding:1%;
+}
+
+.navegacion ul li a {
+  text-decoration:none;
+  text-transform: uppercase;
+  background-color: inherit;
+  color:#000;
+}
+
+.navegacion ul li:hover{
+  background-color: rgb(255, 164, 88);
+  cursor: pointer;
+}
+
+.navegacion ul li:hover a {
+  color:#000;
+}
+
+.bg-banner {
+  width: 100%;
+  height: 500px;
+  background:url('../img/bg-banner.jpg') no-repeat center center/cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.bg-banner h2,
+.bg-banner p {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-banner p {
+  width: 50%;
+  font-weight: bold;
+}
+
+
+.presentacion {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+
+.presentacion .txt-presentacion {
+  width: 50%;
+  font-size:1.2rem;
+  border:solid rgb(255, 139, 42);
+  border-radius: 3px; 
+  box-shadow:2px 3px 5px rgb(0, 0, 0);
+  margin:auto;
+}
+
+.presentacion .txt-presentacion p {
+  background-color:rgb(255, 139, 42);
+  padding: 30px 5px;
+  height:155px ;
+  text-align: justify;
+}
+
+.img-perfil {
+  width: 300px;
+  height: 300px;
+  border-radius:50%;
+  margin:auto;
+}
+
+
