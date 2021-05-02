@@ -56,14 +56,21 @@
   margin-bottom: 1em;
 }
 
-.bg-banner h2,
-.bg-banner p {
-  background-color: rgba(255, 255, 255, 0.2);
+.bg-banner::before {
+  content: '';
+  position:absolute;
+  bottom: 13.01%;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
+.bg-banner h2,
 .bg-banner p {
-  width: 50%;
-  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  z-index: 1;
 }
 
 
